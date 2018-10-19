@@ -1,0 +1,32 @@
+{
+  "cloud": true,
+  "pages": [
+    "superIndex/superIndex/superIndex",
+    "first/index/index",
+    "first/main/main",
+    "first/workExperience/workExperience"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "我的微简历",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "first/main/main",
+        "text": "自我介绍",
+        "iconPath": "images/people.png",
+        "selectedIconPath": "images/people_fill.png"
+      },
+      {
+        "pagePath": "first/workExperience/workExperience",
+        "text": "工作经历",
+        "iconPath": "images/activity.png",
+        "selectedIconPath": "images/activity_fill.png"
+      }
+    ]
+  }
+}
